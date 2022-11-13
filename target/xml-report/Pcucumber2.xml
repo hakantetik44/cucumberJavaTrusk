@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.425">
+    <testcase classname="trusker" name="Vérifier que les liens DEVENIR TRUSKER et TRUSK BUSINESS fonctionnent et se dirigent vers la bonne page." time="10.481">
+        <system-out>
+            <![CDATA[Given Aller la page de Trusk................................................passed
+When Cliquer desus le DEVENIR TRUSKER.......................................passed
+Then Verifier le lien et la page "https://trusk.com/fr/truskers"............passed
+And Retour à la page Trusk..................................................passed
+And Cliquer sur le TRUSK BUSINESS...........................................passed
+And Vérifier le lien et la page "https://trusk.com/fr/business".............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,141 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-12T22:59:29.102Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2993200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Accéder au site web de Trusk",
+        "description": "",
+        "id": "trusker;accéder-au-site-web-de-trusk",
+        "after": [
+          {
+            "result": {
+              "duration": 527278200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4815135200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Aller dans la page de Google",
+            "match": {
+              "location": "stepdefinitions.TruskStepDefinitions.allerDansLaPageDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4831750100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Chercher le mot clé \"Trusk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Trusk\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.TruskStepDefinitions.chercherLeMotClé(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2092834900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Vérifier que le premier résultat de recherche est \"Trusk livre tout, tout de suite\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Trusk livre tout, tout de suite\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepdefinitions.TruskStepDefinitions.vérifierQueLePremierRésultatDeRechercheEst(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1596426800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cliquer dessus",
+            "match": {
+              "location": "stepdefinitions.TruskStepDefinitions.cliquerDessus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4981500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Vérifier que le résultat est bien \"https://trusk.com/fr/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://trusk.com/fr/\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.TruskStepDefinitions.vérifierQueLeRésultatEstBien(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@paraleltesting"
+          },
+          {
+            "name": "@trusk1"
+          }
+        ]
+      }
+    ],
+    "name": "trusker",
+    "description": "",
+    "id": "trusker",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/trusk.feature",
+    "tags": [
+      {
+        "name": "@paraleltesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

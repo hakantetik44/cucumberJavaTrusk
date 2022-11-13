@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.419">
+    <testcase classname="trusker" name="Accéder au site web de Trusk" time="13.984">
+        <system-out>
+            <![CDATA[Given Aller dans la page de Google..........................................passed
+When Chercher le mot clé "Trusk"............................................passed
+Then Vérifier que le premier résultat de recherche est "Trusk livre tout, tout de suite".passed
+And Cliquer dessus..........................................................passed
+And Vérifier que le résultat est bien "https://trusk.com/fr/"...............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

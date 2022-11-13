@@ -1,0 +1,147 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-12T22:59:32.858Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Vérifier que les liens DEVENIR TRUSKER et TRUSK BUSINESS fonctionnent et se dirigent vers la bonne page.",
+        "description": "",
+        "id": "trusker;vérifier-que-les-liens-devenir-trusker-et-trusk-business-fonctionnent-et-se-dirigent-vers-la-bonne-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 272691600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6647897500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Aller la page de Trusk",
+            "match": {
+              "location": "stepdefinitions.TruskStepDefinitions.allerLaPageDeTrusk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120677300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Cliquer desus le DEVENIR TRUSKER",
+            "match": {
+              "location": "stepdefinitions.TruskStepDefinitions.cliquerDesusLeDEVENIRTRUSKER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 749688100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verifier le lien et la page \"https://trusk.com/fr/truskers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://trusk.com/fr/truskers\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.TruskStepDefinitions.verifierLeLienEtLaPage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 348807600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Retour à la page Trusk",
+            "match": {
+              "location": "stepdefinitions.TruskStepDefinitions.retourÀLaPageTrusk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142617100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Cliquer sur le TRUSK BUSINESS",
+            "match": {
+              "location": "stepdefinitions.TruskStepDefinitions.cliquerSurLeTRUSKBUSINESS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2038930600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Vérifier le lien et la page \"https://trusk.com/fr/business\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://trusk.com/fr/business\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.TruskStepDefinitions.vérifierLeLienEtLaPage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@paraleltesting"
+          },
+          {
+            "name": "@trusk2"
+          }
+        ]
+      }
+    ],
+    "name": "trusker",
+    "description": "",
+    "id": "trusker",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/trusk.feature",
+    "tags": [
+      {
+        "name": "@paraleltesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
